@@ -1,0 +1,39 @@
+export default function Home() {
+  return (
+    <div style={{
+      background: "linear-gradient(180deg, #050505, #0b0f1a)",
+      color: "white",
+      minHeight: "100vh",
+      padding: "40px",
+      fontFamily: "Arial"
+    }}>
+      
+      <h1 style={{fontSize: "40px"}}>NFT WORLD</h1>
+      <p style={{opacity: 0.7}}>
+        Multi-chain NFT Marketplace (ETH • BNB • SOL • TON)
+      </p>
+
+      <div style={{
+        marginTop: "30px",
+        padding: "20px",
+        border: "1px solid #333",
+        borderRadius: "12px"
+      }}>
+        <h2>Marketplace</h2>
+        <p>No NFTs yet. Be the first creator 🚀</p>
+      </div>
+
+      <button style={{
+        marginTop: "30px",
+        padding: "12px 20px",
+        background: "#2563eb",
+        border: "none",
+        borderRadius: "10px",
+        color: "white"
+      }}>
+        Connect Wallet (Coming Soon)
+      </button>
+
+    </div>
+  );
+}
